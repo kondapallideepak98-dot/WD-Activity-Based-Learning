@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Delicious Bites - Food Ordering</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; background-color: #f9f9f9; color: #333; }
+        header { background-color: #e67e22; color: white; padding: 20px; text-align: center; }
+        .container { width: 85%; margin: 20px auto; }
+        .offer-banner { background-color: #f39c12; color: white; padding: 15px; text-align: center; font-weight: bold; margin-bottom: 20px; border-radius: 5px; }
+        .menu-category { margin-bottom: 30px; }
+        .menu-category h2 { border-bottom: 2px solid #e67e22; padding-bottom: 5px; color: #d35400; }
+        .card-grid { display: flex; flex-wrap: wrap; gap: 20px; }
+        .card { background: white; border: 1px solid #ddd; border-radius: 8px; width: 30%; padding: 15px; box-shadow: 2px 2px 5px rgba(0,0,0,0.1); }
+        .card img { width: 100%; height: 150px; background-color: #ccc; border-radius: 4px; object-fit: cover; }
+        .price { color: #c0392b; font-weight: bold; font-size: 1.1em; }
+        .btn { background-color: #27ae60; color: white; border: none; padding: 10px 15px; cursor: pointer; border-radius: 4px; width: 100%; margin-top: 10px; font-weight: bold; }
+        .btn:hover { background-color: #219653; }
+        .reviews { background: white; padding: 20px; border-radius: 8px; margin-top: 30px; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Delicious Bites Restaurant</h1>
+        <p>Fresh & Hot Food Delivered to Your Doorstep</p>
+    </header>
+
+    <div class="container">
+        <div class="offer-banner">
+            🎉 Special Offer: Get 20% OFF on your first order! Use code: FIRST20
+        </div>
+
+        <div class="menu-category">
+            <h2>Popular Menu Categories</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5qTOqRhb-CCr4Sx-j3z1z1FYcx0w02GLSR_GLfnff8Q&s=10" alt="Burger">
+                    <h3>Cheeseburger Deluxe</h3>
+                    <p>Juicy beef patty with extra cheese, lettuce, and special sauce.</p>
+                    <p class="price">$8.99</p>
+                    <button class="btn">Order Now</button>
+                </div>
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK8yvAMpP-R0rjFIPjSkGPbPrXMb32TcWcFa61UoTGbw&s=10" alt="Pizza">
+                    <h3>Pepperoni Pizza</h3>
+                    <p>Classic Italian crust topped with loaded pepperoni and mozzarella.</p>
+                    <p class="price">$12.49</p>
+                    <button class="btn">Order Now</button>
+                </div>
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9dybMS2j2J-mvPAf2tGL6axCrSzCJGGVIRFMWBAjORg&s=10" alt="Pasta">
+                    <h3>Creamy Alfredo Pasta</h3>
+                    <p>Fettuccine pasta tossed in rich garlic parmesan cream sauce.</p>
+                    <p class="price">$10.00</p>
+                    <button class="btn">Order Now</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="reviews">
+            <h2>Customer Reviews</h2>
+            <p><strong>John Doe:</strong> "The pizza arrived hot and super fresh! Highly recommended." - ⭐⭐⭐⭐⭐</p>
+            <p><strong>Sarah Smith:</strong> "Best burgers in town. Fast delivery service." - ⭐⭐⭐⭐☆</p>
+        </div>
+    </div>
+
+</body>
+</html>
